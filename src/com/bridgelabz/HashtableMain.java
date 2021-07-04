@@ -2,11 +2,13 @@ package com.bridgelabz;
 
 public class HashtableMain {
 
-	    public static void main(String[] args) {
-	        HashtableImpl<String, Integer> hashImpl = new HashtableImpl();
-	        String message = "To be or not to be";
+	    public static void main(String[] args) 
+	    {
+		    HashtableImpl<String, Integer> hashImpl = new HashtableImpl();
+                  String message = "Paranoids are not paranoid because they are paranoid but " +
+                "because they keep putting themselves deliberately into paranoid avoidable situations";
 
-	        //String to String[] conversion.
+	         //String to String[] conversion.
 	        String[] messageArray = message.toLowerCase().split(" ");
 
 	        //Iterate within the array
