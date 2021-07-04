@@ -11,7 +11,6 @@ public class HashtableMain {
 
 	        //Iterate within the array
 	        for(String word: messageArray) {
-	            //Search for the word in the linked list
 	            Integer value =  hashImpl.get(word);
 	            if( value == null)
 	                value = 1;
